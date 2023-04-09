@@ -91,6 +91,7 @@ body {
 .hero {
     max-width: 130rem;
     margin: 0 auto;
+    padding: 0 3.2rem;
     display: grid;
     gap: 9.6rem;
     grid-template-columns: repeat(2, 1fr);
