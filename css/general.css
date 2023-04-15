@@ -119,3 +119,6 @@ body {
 }
 
 /* end: Utility Classes */
+strong {
+  font-weight: 500;
+}

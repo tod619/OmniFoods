@@ -212,9 +212,18 @@
 
 .meal-attribute {
   font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
 }
 
 .meal-img {
   width: 100%;
+}
+
+.meal-icon {
+  height: 2.4rem;
+  height: 2.4rem;
+  color: #e67e22;
 }
 /* End: Meals section */
