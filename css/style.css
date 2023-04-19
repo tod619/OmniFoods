@@ -356,3 +356,9 @@
   transform: scale(1.1);
 }
 /* End: Testimonial Section */
+
+/* Start: Pricing Section */
+.section-pricing {
+  margin: 9.6rem 0;
+}
+/* End: Pricing Section */
