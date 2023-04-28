@@ -471,6 +471,7 @@
 .cta-text {
   font-size: 1.8rem;
   line-height: 1.8;
+  margin-bottom: 4.8rem;
 }
 
 .cta-img-box {
@@ -485,5 +486,12 @@
   background-size: cover;
   border-top-right-radius: 11px;
   border-bottom-right-radius: 11px;
+}
+
+.cta-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
 }
 /* End: CTA Section */
