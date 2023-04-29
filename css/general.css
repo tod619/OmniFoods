@@ -145,6 +145,11 @@ body {
   padding: 1.2rem;
 }
 
+.btn--form:hover {
+  background-color: #fff;
+  color: #555;
+}
+
 .margin-right-sm {
   margin-right: 1.6rem !important;
 }
