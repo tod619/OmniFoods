@@ -43,4 +43,8 @@
   .hero {
     gap: 4.8rem;
   }
+
+  .testimonials-container {
+    padding: 9.6rem 3.2rem;
+  }
 }
