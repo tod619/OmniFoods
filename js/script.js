@@ -5,10 +5,10 @@ yearEl.textContent = currentYear;
 
 // Show/hide the nav bar
 const btnNav = document.querySelector('.btn-mobile-nav');
-const header = document.querySelector('.header');
+const headerEl = document.querySelector('.header');
 
 btnNav.addEventListener('click', () => {
-  header.classList.toggle('nav-open');
+  headerEl.classList.toggle('nav-open');
 });
 
 ///////////////////////////////////////////////////////////
