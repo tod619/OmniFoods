@@ -44,6 +44,23 @@ allLinks.forEach((link) => {
 });
 
 // Create a sticky navigation
+const sectionHeroEl = document.querySelector('.section-hero');
+
+const observer = new IntersectionObserver(
+  (entries) => {
+    const ent = entries[0];
+
+    if (!ent.isIntersecting) {
+      console.log(ent);
+      document.querySelector('.header').classList.add('sticky');
+    }
+  },
+  {
+    root: null,
+    threshold: 0,
+  }
+);
+observer.observe(sectionHeroEl);
 
 ///////////////////////////////////////////////////////////
 // Fixing flexbox gap property missing in some Safari versions
