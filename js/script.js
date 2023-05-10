@@ -52,7 +52,7 @@ const observer = new IntersectionObserver(
 
     if (!ent.isIntersecting) {
       console.log(ent);
-      document.querySelector('.header').classList.add('sticky');
+      document.body.classList.add('sticky');
     }
   },
   {
