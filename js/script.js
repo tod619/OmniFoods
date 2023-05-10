@@ -43,6 +43,8 @@ allLinks.forEach((link) => {
   });
 });
 
+// Create a sticky navigation
+
 ///////////////////////////////////////////////////////////
 // Fixing flexbox gap property missing in some Safari versions
 function checkFlexGap() {
