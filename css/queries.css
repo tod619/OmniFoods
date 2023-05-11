@@ -269,7 +269,7 @@
   }
 }
 
-/* Start: Grid gap not supported fix for older browsers */
+/* Start: Flex gap not supported fix for older browsers */
 .no-flexbox-gap .main-nav-list li:not(:last-child) {
   margin-right: 4.8rem;
 }
@@ -318,4 +318,4 @@
     margin-bottom: 4.8rem;
   }
 }
-/* End: Grid gap not supported fix for older browsers */
+/* End: Flex gap not supported fix for older browsers */
